@@ -1,0 +1,14 @@
+/* 
+    Document   : custom
+    Created on : 21 févr. 2013, 16:54:13
+    Author     : hregnie2
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+/*Class pour supprimer la marge de gauche pour les span*/
+.no-margin[class*="span"]{margin-left:0;}
