@@ -10,5 +10,35 @@ root {
     display: block;
 }
 
-/*Class pour supprimer la marge de gauche pour les span*/
+/*Class pour supprimer la marge de gauche pour les span a l'intérieur d'un autre''*/
 .no-margin[class*="span"]{margin-left:0;}
+.input-xmini{width:32px;}
+.input-xlmini{width:25px;}
+.input-xxmini{width:17px;}
+.input-xmedium{width:113px;}
+
+.accordion-inner{padding:9px 0}
+
+#form-identite label{margin:3px 0}
+#form-identite label.no-block{display:inline-block;}
+
+/*Class pour gérer les boutons sur le coté d'un input pour + et - la valeur'*/
+.btn-group.btn-group-vertical.btn-group-plusminus {width:15px;}
+.btn-group.btn-group-vertical.btn-group-plusminus .btn {height:15px;width:15px;font-size:0;margin:0;padding:0;}
+.btn-group.btn-group-vertical.btn-group-plusminus .btn:first-child {-webkit-border-radius:0 4px 0 0;-moz-border-radius: 0 4px 0 0; border-radius:0 4px 0 0;}
+.btn-group.btn-group-vertical.btn-group-plusminus .btn:last-child {-webkit-border-radius:0 0 4px 0;-moz-border-radius: 0 0 4px 0; border-radius:0 0 4px 0;}
+
+.form-profil{position:relative;padding-top: 35px}
+.form-legend {position:absolute; top:0; left:0;padding:4px 9px;width:450px;border-bottom:1px solid #ccc;background-color:#eee;text-shadow:0 1px 0 #fff}
+.form-legend .btn{position:absolute; top:-1px ;right:-1px;}
+
+.table-carac thead td{font-size:0.8em;text-align:center;vertical-align: bottom;line-height: 80%;}
+.table-carac tbody tr:first-child td{border-top:none;}
+.table-carac td{padding:4px 4px;vertical-align:middle;}
+.table-carac input[type="text"] {margin:0;}
+.table-carac .input-append,input-prepend {margin:0}
+.table-carac .left-border {border-left:1px solid #ddd}
+.table-carac .font-mini td:first-child{padding-right:0;font-size:0.85em;}
+.table-carac .input-init {width:58px;}
+.table-carac .input-vitenc {width:98px;}
+.table-carac .input-distance {width:138px;}
