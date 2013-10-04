@@ -1,0 +1,3 @@
+cauchemars_sheet_homepage:
+    pattern:  /
+    defaults: { _controller: CauchemarsSheetBundle:Sheet:view }

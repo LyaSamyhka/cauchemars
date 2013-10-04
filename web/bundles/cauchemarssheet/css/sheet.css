@@ -1,0 +1,38 @@
+#sheet {padding:10px;}
+
+input {
+    border:none;
+    border-bottom: 1px #ccc dashed;
+    padding:2px 3px;
+    font-size:15px;
+}
+input:focus {
+    border:none;
+    border-bottom: 1px #ccc dashed;
+    outline:none;
+}
+
+label {
+    text-align:right;
+}
+
+/* only 2 chars in text */
+.span-2 {display:inline-block;width:19px;font-family:monospace} 
+
+/* only 3 chars in text */
+.span-3{display:inline-block;width:28px;font-family:monospace} 
+
+/* only 4 chars in text */
+.span-4{display:inline-block;width:37px;font-family:monospace} 
+
+
+/* Identité */
+#identite .column{display:inline-block;vertical-align:top;}
+#identite label:not(.radio_label) {display:inline-block;width:60px;margin-right: 5px;}
+#identite #illustration {width:200px;margin-right:10px;}
+#identite #other{width:800px;}
+#identite #nom {}
+#identite #sexe {}
+#identite #origine{display:block;}
+#identite #age {}
+#identite #foi {display:block;}

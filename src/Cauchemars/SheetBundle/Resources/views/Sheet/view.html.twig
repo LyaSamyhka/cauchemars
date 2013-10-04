@@ -1,0 +1,43 @@
+{% extends "::base.html.twig" %}
+
+{% block content %}
+    <div id="sheet">
+        {% block identite %}
+            {% include 'CauchemarsSheetBundle:Sheet:sheet-identite.html.twig' %}
+        {% endblock %}
+            
+        {% block profil_psycho %}
+            {% include 'CauchemarsSheetBundle:Sheet:sheet-profil_psycho.html.twig' %}
+        {% endblock %}
+            
+        {% block carac_primaire %}
+            {% include 'CauchemarsSheetBundle:Sheet:sheet-carac_primaire.html.twig' %}
+        {% endblock %}
+            
+        {% block carac_secondaire %}
+            {% include 'CauchemarsSheetBundle:Sheet:sheet-carac_secondaire.html.twig' %}
+        {% endblock %}
+            
+        {% block competence %}
+            {% include 'CauchemarsSheetBundle:Sheet:sheet-competence.html.twig' %}
+        {% endblock %}
+        
+        {% block avantage %}
+            {% include 'CauchemarsSheetBundle:Sheet:sheet-avantage.html.twig' %}
+        {% endblock %}
+            
+        {% block handicap %}
+            {% include 'CauchemarsSheetBundle:Sheet:sheet-handicap.html.twig' %}
+        {% endblock %}
+            
+        {% block inventaire %}
+            {% include 'CauchemarsSheetBundle:Sheet:sheet-inventaire.html.twig' %}
+        {% endblock %}
+    </div>
+{% endblock %}
+
+{% block javascripts %} 
+{% javascripts '@CauchemarsSheetBundle/Resources/public/js/*' %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+{% endjavascripts %}
+{% endblock %}
