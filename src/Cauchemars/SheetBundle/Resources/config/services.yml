@@ -1,7 +1,0 @@
-parameters:
-#    cauchemars_sheet.example.class: Cauchemars\SheetBundle\Example
-
-services:
-#    cauchemars_sheet.example:
-#        class: %cauchemars_sheet.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

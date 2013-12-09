@@ -1,4 +1,0 @@
-cauchemars_sheet:
-    resource: "@CauchemarsSheetBundle/Resources/config/routing.yml"
-    prefix:   /sheet
-
