@@ -1,6 +1,10 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
+$(document).ready(function(){
+	$('h4').click(function(){
+		if($(this).next().is(':visible')){
+			$(this).next('div').slideUp(300);
+		}else{
+			$(this).next('div').slideDown(300);
+		}
+	})
+	$('input.disabled').attr('disabled','disabled');
+});

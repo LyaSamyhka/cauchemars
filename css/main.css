@@ -6,7 +6,17 @@
         Purpose of the stylesheet follows.
 */
 
-root { 
-    display: block;
-}
+* {margin:0;padding:0;font-family:Tahoma,sans-serif;font-size:15px;}
+
+
+/* FICHE DE PERSO */
+#fiche {width:1000px;margin:auto;padding:20px 0}
+#fiche label {}
+#fiche input[type="text"] {border:none;background:none;border-bottom:1px dashed black;margin:3px 5px;border-radius:0;padding:3px 5px 1px 5px;}
+#fiche input[type="text"].size-2{width:17px;}
+#fiche input[type="text"].size-3{width:25px;}
+#fiche input[type="text"].size-4{width:33px;}
+#fiche input[type="text"].disabled{}
+#fiche span.append {font-size:10px;}
+#fiche #identite #illustration {float:left;}
 
