@@ -8,8 +8,12 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
+		<ul>
+			<li><a href="?page=fiche">fiche</a></li>
+			<li><a href="?page=test">test</a></li>
+		</ul>
 		<?php
-		include 'page/fiche.php';
+		include 'page/'.$_GET['page'].'.php';
 		?>
 	</body>
 </html>
